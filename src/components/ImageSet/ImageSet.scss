@@ -1,0 +1,20 @@
+@use '../../style/partials/mixin.scss' as *;
+@use '../../style/partials/variables.scss' as *;
+
+.image__container{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+  justify-content: center; 
+  align-items: center; 
+}
+.image_value{
+  min-height:225px;
+}
+
+.image_card{
+  border: 3px solid $Monkey;
+  border-radius: 10px;
+  text-align: center;
+}
+
